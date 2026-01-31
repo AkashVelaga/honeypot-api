@@ -1,0 +1,26 @@
+
+INstall OLLAMA ON THE SYSTEM
+Run models like ollama on the terminal
+
+ollama run llama3 use command in the terminal
+ollama pull mistral 
+
+
+1.Dotwnload the node.js 
+2. open new terminal and type npm install -g n8n
+
+the npm accessiblity http://localhost:5678
+
+OLLAMA IP  http://127.0.0.1:11434
+
+
+API KEY :  nu02pL5zFnqr98F2E7xXDqDP5895LLExX_oc8ueGEoo
+
+curl -X POST http://127.0.0.1:8000/honeypot/message ^
+ -H "Content-Type: application/json" ^
+ -H "x-api-key: nu02pL5zFnqr98F2E7xXDqDP5895LLExX_oc8ueGEoo" ^
+ -d "{\"sessionId\":\"s1\",\"message\":{\"sender\":\"scammer\",\"text\":\"Your bank account will be blocked today. Verify immediately.\",\"timestamp\":\"2026-01-01T00:00:00Z\"},\"conversationHistory\":[]}"
+
+ngrok config add-authtoken 38zNi1GwzW3RivrQj74eJlxGgwS_6v5WXURJkFGdjxnrsv2T8
+
+https://trevally-hyperdemocratic-lawson.ngrok-free.dev/honeypot/message
